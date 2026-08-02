@@ -3,14 +3,14 @@ import LocationSection from "@/components/sections/LocationSection";
 import Section from "@/components/ui/Section";
 
 export const metadata: Metadata = {
-  title: "Contact Jason",
+  title: "Contact",
   description:
-    "Confirmed direct-contact details for PML Junk Removal, presented in an unofficial Veriq website concept.",
+    "Contact S&B Express to discuss freight transportation, lanes, scheduling, and commercial logistics.",
 };
 
 export default function ContactPage() {
   return (
-    <Section>
+    <Section tone="dark">
       <div className="pt-8">
         <LocationSection />
       </div>

@@ -20,11 +20,11 @@ const robotoCondensed = Roboto_Condensed({
 
 export const metadata: Metadata = {
   title: {
-    default: "PML Junk Removal Website Concept | Veriq",
-    template: `%s | PML Junk Removal Website Concept`,
+    default: "S&B Express | Freight Transportation & Logistics",
+    template: `%s | S&B Express`,
   },
   description:
-    "An unofficial website concept created by Veriq for PML Junk Removal in Johnston, Iowa.",
+    siteConfig.description,
   robots: {
     index: false,
     follow: false,
@@ -39,16 +39,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "PML Junk Removal Website Concept",
-    description: "Unofficial demonstration concept created by Veriq.",
-    siteName: "PML Junk Removal Website Concept",
+    title: "S&B Express | Freight Transportation & Logistics",
+    description: siteConfig.description,
+    siteName: "S&B Express",
     locale: siteConfig.locale,
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "PML Junk Removal Website Concept",
-    description: "Unofficial demonstration concept created by Veriq.",
+    title: "S&B Express | Freight Transportation & Logistics",
+    description: siteConfig.description,
   },
 };
 

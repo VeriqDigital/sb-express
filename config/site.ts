@@ -1,22 +1,22 @@
 import type { ModalType } from "@/components/layout/LeadModal";
 
 export const siteConfig = {
-  name: "PML Junk Removal",
-  shortName: "PML Junk Removal",
-  owner: "Jason Paullin",
+  name: "S&B Express",
+  shortName: "S&B Express",
+  owner: "S&B Express",
   description:
-    "An unofficial website concept created by Veriq for PML Junk Removal in Johnston, Iowa.",
+    "Dependable freight transportation and commercial logistics based in Chicagoland and serving the Midwest.",
   locale: "en_US",
   contact: {
-    phone: "(515) 901-3779",
-    phoneHref: "tel:+15159013779",
-    smsHref: "sms:+15159013779",
-    email: "jason.paullin@pml.com",
-    emailHref: "mailto:jason.paullin@pml.com",
-    address: "Johnston, Iowa",
-    serviceArea: "Serving the surrounding Des Moines metro",
-    mapUrl: "https://maps.google.com/?q=Johnston+Iowa",
-    mapEmbedUrl: "https://www.google.com/maps?q=Johnston+Iowa&output=embed",
+    phone: "(815) 416-8936",
+    phoneHref: "tel:+18154168936",
+    smsHref: "sms:+18154168936",
+    email: "stellaenev@gmail.com",
+    emailHref: "mailto:stellaenev@gmail.com",
+    address: "Chicagoland, Illinois",
+    serviceArea: "Serving businesses throughout the Midwest",
+    mapUrl: "https://maps.google.com/?q=Chicagoland+Illinois",
+    mapEmbedUrl: "https://www.google.com/maps?q=Chicagoland+Illinois&output=embed",
   },
 } as const;
 
@@ -25,20 +25,21 @@ export type NavItem =
   | { label: string; modal: ModalType };
 
 export const navigation: NavItem[] = [
-  { label: "Services", href: "/#services" },
+  { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
+  { label: "Industries", href: "/#industries" },
   { label: "FAQ", href: "/#faq" },
   { label: "Contact", modal: "contact" },
 ];
 
 export const footerLinks: NavItem[] = [
-  { label: "Services", href: "/#services" },
+  { label: "Services", href: "/services" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
-  { label: "Preview Estimate Form", modal: "service" },
+  { label: "Request a Quote", modal: "service" },
 ];
 
 export const primaryCta = {
-  label: "Preview Estimate Form",
+  label: "Request a Quote",
   modal: "service",
 } as const satisfies { label: string; modal: ModalType };

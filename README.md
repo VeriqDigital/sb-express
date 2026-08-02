@@ -1,13 +1,8 @@
-# PML Junk Removal Website Concept
+# S&B Express Website Concept
 
-An unofficial, non-affiliated website concept created by Veriq for PML Junk
-Removal in Johnston, Iowa.
-
-This demonstration uses confirmed direct-contact details for Jason Paullin. Its
-estimate and contact forms are interface previews only: submission is
-intercepted in the browser, no information is transmitted or stored, and no
-lead-delivery API is included. The site also disables indexing through page
-metadata, `robots.txt`, and a global `X-Robots-Tag` response header.
+A responsive trucking and logistics website concept created by Veriq Digital.
+The interface uses local photography, a black-and-gold industrial design system,
+and non-submitting quote/contact form previews.
 
 ## Local development
 

@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f3f3f1;
-  --surface: #ffffff;
+  --background: #111111;
+  --surface: #171717;
   --surface-deep: #111111;
-  --surface-hover: #e8e8e5;
-  --foreground: #171717;
-  --muted: #666666;
-  --primary: #111111;
-  --primary-hover: #2a2a2a;
-  --accent: #111111;
-  --accent-hover: #2a2a2a;
-  --border: #d8d8d5;
+  --surface-hover: #222222;
+  --foreground: #ffffff;
+  --muted: #a5a5a5;
+  --primary: #c9a227;
+  --primary-hover: #ddb83e;
+  --accent: #c9a227;
+  --accent-hover: #ddb83e;
+  --border: #313131;
   --container-width: 1280px;
   --radius-sm: 6px;
   --radius-md: 10px;
@@ -38,6 +38,7 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans);
+  overflow-x: hidden;
 }
 
 :focus-visible {
@@ -47,5 +48,11 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: white;
+  color: #111111;
+}
+
+.industrial-grid {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 44px 44px;
 }

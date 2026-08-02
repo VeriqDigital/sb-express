@@ -1,50 +1,45 @@
 export const services = [
   {
-    title: "Appliance Removal",
+    title: "Box Truck Delivery",
     description:
-      "Contact Jason about removing refrigerators, washers, dryers, stoves, or other bulky appliances and confirm any item-specific requirements.",
-    image: "/pexels-ramonkaphotography-38300321.jpg",
+      "Responsive box truck transportation for local and regional commercial freight, scheduled deliveries, and loads that do not require a full semi-trailer.",
+    image: "/pexels-feliart-6940962.jpg",
+    featured: true,
   },
   {
-    title: "Home Cleanouts",
+    title: "Full Truckload (FTL)",
     description:
-      "Discuss unwanted items in a home, rental, basement, garage, or storage space and confirm the scope directly with Jason.",
-    image: "/pexels-jakobjin-13885592.jpg",
+      "Dedicated trailer capacity for high-volume shipments that need a direct, efficient route from pickup to delivery.",
+    image: "/pexels-quintingellar-6563903.jpg",
   },
   {
-    title: "Furniture Removal",
+    title: "Less Than Truckload (LTL)",
     description:
-      "Ask Jason about pickup for couches, tables, cabinets, dressers, or other heavy furniture.",
-    image: "/pexels-rdne-7464712.jpg",
+      "Flexible freight capacity for smaller commercial loads without the cost of reserving a full trailer.",
+    image: "/pexels-caleboquendo-34585121.jpg",
   },
   {
-    title: "Mattress Removal",
+    title: "Dedicated Freight",
     description:
-      "Contact Jason to confirm pickup options for mattresses, box springs, bed frames, or other bulky bedroom items.",
-    image: "/pexels-mikebird-6316243.jpg",
+      "Consistent equipment and scheduling for businesses with repeat lanes, recurring volume, or time-sensitive needs.",
+    image: "/pexels-carloscruz-artegrafia-172084181-11087837.jpg",
   },
   {
-    title: "Yard Waste Removal",
+    title: "Regional Delivery",
     description:
-      "Ask whether branches, brush, leaves, or other outdoor debris can be included in a pickup.",
-    image: "/pexels-zeynep-sude-emek-193601188-29359069.jpg",
+      "Reliable pickup and delivery from Chicagoland across Midwest markets with responsive coordination.",
+    image: "/pexels-hitesh-sarain-40372344-28264496.jpg",
   },
   {
-    title: "Junk Hauling",
+    title: "Commercial Logistics",
     description:
-      "From a few unwanted items to a larger cleanup, PML handles the lifting, loading, and hauling.",
-    image: "/pexels-guilherme-pedrosa-2156844062-34406282.jpg",
+      "Practical transportation support for manufacturers, distributors, contractors, and growing commercial operations.",
+    image: "/pexels-willians-huerta-2157111846-36398150.jpg",
   },
   {
-    title: "Construction Debris",
+    title: "Specialized Hauling",
     description:
-      "Contact Jason to confirm whether non-hazardous remodeling debris, scrap materials, or jobsite clutter fits the current service scope.",
-    image: "/pexels-christafaari-34019842.jpg",
-  },
-  {
-    title: "Commercial Cleanouts",
-    description:
-      "Businesses and property managers can contact Jason to discuss unwanted items in offices, rentals, or storage areas.",
-    image: "/pexels-thomas-lin-2951901-15432186.jpg",
+      "Carefully planned transport for freight that requires specific equipment, handling, timing, or route coordination.",
+    image: "/pexels-giovanni-spoletini-311699-14206821.jpg",
   },
 ];

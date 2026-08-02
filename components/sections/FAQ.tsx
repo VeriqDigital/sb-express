@@ -12,8 +12,8 @@ const FAQ = () => {
         <p className="text-sm font-bold uppercase tracking-[0.3em] text-(--accent)">
           FAQ
         </p>
-        <h2 className="mt-4 font-heading text-4xl font-black uppercase text-[#202020] md:text-6xl">
-          Common Questions
+        <h2 className="mt-4 font-heading text-4xl font-black uppercase text-white md:text-6xl">
+          Freight questions, straight answers
         </h2>
       </div>
       <div className="grid items-start gap-5 md:grid-cols-2">
@@ -29,17 +29,17 @@ const FAQ = () => {
               aria-expanded={isOpen}
               aria-controls={`faq-answer-${index}`}
             >
-              <div className="w-full border border-[#d8d5ce] bg-white p-5">
+              <div className="w-full border border-[#393939] bg-[#202020] p-6 transition hover:border-[#686868]">
                 <div className="flex items-start justify-between gap-4">
-                  <span className="font-heading text-xs font-black uppercase tracking-[0.3em]">
+                  <span className="font-heading text-sm font-black uppercase tracking-[0.16em] text-white">
                     {item.question}
                   </span>
-                  <span className="text-xl leading-none">
-                    {isOpen ? "x" : "+"}
+                  <span className="text-xl leading-none text-(--accent)">
+                    {isOpen ? "−" : "+"}
                   </span>
                 </div>
                 {isOpen && (
-                  <p id={`faq-answer-${index}`} className="pt-4 text-[#625f59]">
+                  <p id={`faq-answer-${index}`} className="pt-5 leading-7 text-[#aaa]">
                     {item.answer}
                   </p>
                 )}

@@ -3,14 +3,14 @@ import ServicesSection from "@/components/sections/ServicesSection";
 import Section from "@/components/ui/Section";
 
 export const metadata: Metadata = {
-  title: "Junk Removal Services",
+  title: "Freight Services",
   description:
-    "Junk removal service examples presented in an unofficial Veriq website concept for PML Junk Removal.",
+    "Full truckload, LTL, dedicated freight, regional delivery, commercial logistics, and specialized hauling from S&B Express.",
 };
 
 export default function ServicesPage() {
   return (
-    <Section>
+    <Section tone="dark">
       <div className="pt-8">
         <ServicesSection showAll />
       </div>

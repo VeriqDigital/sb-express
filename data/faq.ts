@@ -1,42 +1,32 @@
 export const faqs = [
   {
-    question: "How does junk removal work?",
+    question: "What areas do you serve?",
     answer:
-      "Call or text Jason directly with a description or photos of what needs to be removed. Ask about availability, scope, and an estimate before scheduling.",
+      "S&B Express is based in the Chicagoland area and serves customers throughout the Midwest. Share your origin and destination for lane availability.",
   },
   {
-    question: "How is pricing determined?",
+    question: "What types of freight do you haul?",
     answer:
-      "Pricing can depend on the amount and type of material, access to the items, and any special handling involved. Review the job details directly with Jason before scheduling.",
+      "We support commercial freight including palletized goods, manufacturing materials, construction supplies, retail inventory, and agricultural products. Specific requirements are reviewed before scheduling.",
   },
   {
-    question: "What items do you take?",
+    question: "How do I request a quote?",
     answer:
-      "This concept highlights common junk-removal categories such as furniture, appliances, mattresses, household items, yard debris, and renovation debris. Confirm any specific item directly with Jason.",
+      "Send the pickup and delivery locations, freight type, estimated weight or dimensions, timing, and any special handling requirements through the quote form or by phone.",
   },
   {
-    question: "What items can you not remove?",
+    question: "Do you offer dedicated routes?",
     answer:
-      "Some materials may require specialized disposal. Confirm chemicals, fuels, paints, or other unusual items directly with Jason before scheduling.",
+      "Yes. Dedicated freight service can be arranged for businesses with regular lanes, steady volume, or recurring delivery schedules.",
   },
   {
-    question: "Do I need to move everything outside?",
+    question: "Are your drivers insured?",
     answer:
-      "Access needs can vary by job. Ask Jason whether items should be moved outside or can be collected in place.",
+      "S&B Express is presented as a licensed and insured commercial carrier. Coverage and shipment-specific documentation can be confirmed during the quoting process.",
   },
   {
-    question: "Do you offer full-property cleanouts?",
+    question: "Can I schedule recurring transportation?",
     answer:
-      "Contact Jason to confirm whether PML can accommodate the type and size of cleanout you have in mind.",
-  },
-  {
-    question: "Where do you provide service?",
-    answer:
-      "PML Junk Removal is based in Johnston, Iowa. Contact Jason directly to confirm availability at your address in the surrounding Des Moines metro.",
-  },
-  {
-    question: "How do I ask about an estimate?",
-    answer:
-      "Call or text Jason directly. The form on this concept site is a non-submitting interface demonstration and does not send information to PML Junk Removal.",
+      "Yes. We can coordinate repeat pickups, scheduled deliveries, and dedicated capacity for businesses that need dependable ongoing transportation.",
   },
 ];
